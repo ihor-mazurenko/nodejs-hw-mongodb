@@ -1,0 +1,41 @@
+type: object
+required:
+  - _id
+  - name
+  - phoneNumber
+  - contactType
+properties:
+  _id:
+    type: string
+    description: Contact unique ID
+    example: 686809896ac14799aa90b54a
+  userId:
+    type: string
+    description: ID of the user who owns this contact
+    example: 6863db747a475269e8415593
+  name:
+    type: string
+    description: Contact name
+    example: Ihor Mazurenko
+  phoneNumber:
+    type: string
+    description: Contact phone phone number
+    example: +380664821211
+  email:
+    type: string
+    description: Contact email
+    example: igormazurenko94@gmail.com
+  isFavourite:
+    type: boolean
+    description: Whether is contact a favourite
+    example: false
+  contactType:
+    type: string
+    description: Type of contact
+    enum: ['work', 'personal', 'home']
+    example: work
+  photo:
+    type: string
+    format: uri
+    description: Link to the contact photo
+    example: https://collection.cloudinary.com/drqqqogkf/87b24f403ddf2b6eb460313045f72565?
