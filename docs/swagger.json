@@ -206,6 +206,16 @@
                     "description": "Contact number",
                     "example": 380664721111
                   },
+                  "email": {
+                    "type": "string",
+                    "description": "Contact email",
+                    "example": "igormazurenko94@gmail.com"
+                  },
+                  "isFavourite": {
+                    "type": "boolean",
+                    "description": "Whether is contact a favourite",
+                    "example": false
+                  },
                   "contactType": {
                     "type": "string",
                     "description": "Type of contact",
