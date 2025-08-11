@@ -11,7 +11,7 @@ tags:
     description: Operations about user
 servers:
   - url: http://localhost:3000
-  - url: #посилання на задеплоєний сайт
+  - url: https://contacts-app-4hic.onrender.com
 paths:
   /contacts:
     get:

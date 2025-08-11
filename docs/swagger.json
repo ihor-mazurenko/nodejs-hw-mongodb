@@ -14,7 +14,7 @@
       "url": "http://localhost:3000"
     },
     {
-      "url": null
+      "url": "https://contacts-app-4hic.onrender.com"
     }
   ],
   "tags": [
@@ -205,6 +205,16 @@
                     "type": "string",
                     "description": "Contact number",
                     "example": 380664721111
+                  },
+                  "email": {
+                    "type": "string",
+                    "description": "Contact email",
+                    "example": "igormazurenko94@gmail.com"
+                  },
+                  "isFavourite": {
+                    "type": "boolean",
+                    "description": "Whether is contact a favourite",
+                    "example": false
                   },
                   "contactType": {
                     "type": "string",
